@@ -15,3 +15,7 @@ useradd guest13 -c "Usuário convidado" -s /bin/bash -m -p $(openssl passwd -cry
 passwd guest13 -e
 
 echo "The end..."
+
+
+
+

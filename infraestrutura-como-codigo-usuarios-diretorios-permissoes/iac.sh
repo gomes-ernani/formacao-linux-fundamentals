@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Checando a existência de diretórios..."
+
 FILE=/publico
 if [ -d "$FILE" ]; then
     echo "O diretório $FILE existe"
@@ -29,7 +31,7 @@ else
 fi
 
 
-echo "Criando diretórios..."
+echo "Criando diretórios.."
 
 mkdir /publico
 mkdir /adm
@@ -67,4 +69,8 @@ chmod 770 /ven
 chmod 770 /sec
 chmod 777 /publico
 
-echo "The End..." 
+echo "The End..."
+
+
+
+
